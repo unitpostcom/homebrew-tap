@@ -3,28 +3,28 @@
 class Unitpost < Formula
   desc "Official Unitpost CLI: send email and SMS from your terminal, scripts and CI"
   homepage "https://www.unitpost.com/docs/cli"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/unitpostcom/unitpost-cli/releases/download/v0.2.0/unitpost-darwin-arm64.tar.gz"
-      sha256 "a583436e1439dbc475bf5fcfb0909c1d6d1647909d46ae6c996d452b00210524"
+      url "https://github.com/unitpostcom/unitpost-cli/releases/download/v0.3.0/unitpost-darwin-arm64.tar.gz"
+      sha256 "e8dc69de243b398681026f6dadeaf589dff97e50b1fc8fb148fc8be9faaea44b"
     end
     on_intel do
-      url "https://github.com/unitpostcom/unitpost-cli/releases/download/v0.2.0/unitpost-darwin-x64.tar.gz"
-      sha256 "6364671b61637b14166a585b87abababe8388e8252abdeaf518ec606b80e87f3"
+      url "https://github.com/unitpostcom/unitpost-cli/releases/download/v0.3.0/unitpost-darwin-x64.tar.gz"
+      sha256 "1f2932ffe15d1d70c1f9950be5fc9bee4d0639ba557a1470fe620b249fc90d3e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/unitpostcom/unitpost-cli/releases/download/v0.2.0/unitpost-linux-arm64.tar.gz"
-      sha256 "dc2baa80d9eea2cd14937b3a370ca8557d3e58ba004317e4d976fb8ce4c0264a"
+      url "https://github.com/unitpostcom/unitpost-cli/releases/download/v0.3.0/unitpost-linux-arm64.tar.gz"
+      sha256 "f9f3da0537fb2180865b594a76a7604a33ae0c49e895b8f84e388338238137d2"
     end
     on_intel do
-      url "https://github.com/unitpostcom/unitpost-cli/releases/download/v0.2.0/unitpost-linux-x64.tar.gz"
-      sha256 "803cb937bc513ba089ca920dd6c845b2396c99b9f1861bdc9698e816f71cc595"
+      url "https://github.com/unitpostcom/unitpost-cli/releases/download/v0.3.0/unitpost-linux-x64.tar.gz"
+      sha256 "987bfb5fbdd6a3994bbb2396f17484a98fb34731e7068dbe671600630a07707f"
     end
   end
 
